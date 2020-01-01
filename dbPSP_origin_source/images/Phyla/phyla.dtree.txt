@@ -1,0 +1,12 @@
+Actinobacteria	3
+Bacteroidetes	8
+Chlamydiae	9
+Crenarchaeota	7
+Cyanobacteria	6
+Deinococcus-Thermus	5
+Euryarchaeota	4
+Firmicutes	2
+Proteobacteria	1
+Spirochaetes	10
+Tenericutes	11
+Thermotogae	12

@@ -1,0 +1,82 @@
+/* Global */
+body{font-family: Arial,sans-serif; color: #333333; line-height: 1.166; margin: 0px; padding: 0px;
+    background: -webkit-linear-gradient(rgba(239,239,239,0.7), white); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(rgba(239,239,239,0.7), white); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(rgba(239,239,239,0.7), white); /* Firefox 3.6 - 15 */
+    background: linear-gradient(rgba(202, 135, 153, 0.2),#ffffff ); /* 标准的语法（必须放在最后） */
+}
+#container{margin:0 auto; width:99%;min-width:1410px;}
+li{list-style:none;}
+/* Link */
+#Annotationa a:link{text-decoration: none;color:rgba(153,51,51,0.7);font-weight: bold;}
+#Annotationa a:hover{text-decoration: none;color:rgba(153,51,51,1);}
+#Annotationa a:visited{text-decoration: none;color:rgba(153,51,51,1);}
+a:link{text-decoration: none;color:rgba(0,143,149,1);}
+a:hover{text-decoration: none;color:rgba(153,102,153,1);border-bottom:#996699 dotted 1px;}
+a:active{text-decoration: none;border-bottom:#996699 dotted 1px;}
+a:visited{text-decoration: none;color:rgba(0,143,149,1);border-bottom:#996699 dotted 1px;}
+/* Font */
+p{font-weight:bold;}
+.label{width:180px; color:#4f2746;}
+.couriernew{font-family: 'Courier New', Courier, monospace; font-weight:bold; color:rgba(103,108,127,1);}
+/*th{background:linear-gradient(to right, #6190e8, #a7bfe8);text-align:center; }*/
+th{background-color:rgba(0,143,149,0.2);text-align:center; }
+
+.dettab td,.dettab th{
+    border: 1px solid rgba(202,217,234,1);
+    padding: 8px;
+    text-align: center;
+	font-size:13px; 
+	width:20px;
+}
+.dettab th{
+	font-weight:bold;
+	background-color: rgba(0,143,149,0.2);
+	line-height: 18px;
+	font-size:16px; 
+}
+
+
+
+
+
+.site td{font-weight:bold; text-align:center; font-size:18px; }
+
+/* Header */
+#header{margin: 0; padding: 0px 0px; width: 100%; height:120px; background-image:url(../images/Headerbg.jpg); background-repeat:repeat-x; position:relative;}
+#viewlogo{position:absolute; top:3px; left:30px; width: 100px;height: 90px;}
+#viewnamebanner{width:700px; top:0px; margin:0 auto;}
+#masthead{margin: 0; padding: 0px 0px; width: 100%; height:30px; background-image:url(../images/Headerbg.jpg); background-repeat:repeat-x; position:relative; }
+
+/* Masthead */
+#globalNav{position:absolute; color: #993333; padding: 0px 0px 0px 0px; width:100%; height:30px; bottom:0px; left:0px; background-image:url(../images/globlenavbg1.jpg); }
+#globalNav{position:absolute; color: #103c89; padding: 0px 0px 0px 0px; width:100%; height:30px; bottom:0px; left:0px; background-image:url(../images/globlenavbg1.jpg); }
+.lavaLampWithImage{position: relative; height: 30px; width: 100%; padding: 0px; margin: 0px 0; overflow: hidden; }
+.lavaLampWithImage li{float: left; list-style: none; }
+.lavaLampWithImage li.back{background: url(../images/lava.gif) no-repeat right -30px; width: 9px; height: 30px; z-index: 8; position: absolute; }
+.lavaLampWithImage li.back .left{background: url(../images/lava.gif) no-repeat top left; height: 30px; margin-right: 9px; /* 7px is the width of the rounded shape */ }
+.lavaLampWithImage li a,.lavaLampWithImage li a:visited {
+    font: bold 15px arial;
+    text-decoration: none;
+    color: rgba(103,108,127,1);
+    outline: none;
+    text-align: center;
+    top: 7px;
+    text-transform: none;
+    letter-spacing: 0;
+    z-index: 10;
+    display: block;
+    float: left;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: auto 10px;
+}
+.lavaLampWithImage li a:hover, .lavaLampWithImage li a:active { font: bold 14px arial;border: none; color:rgba(255,255,255,1); } 
+
+
+
+/* Footer */
+.clearfloat{ clear:both; height:0; font-size: 1px; line-height: 0px;}
+#footer{ height:35px;}
+#siteInfo{ width:100%; clear: both; bottom:0; border: 0px solid #ffffff; background-image:url(../images/bottombg1.jpg); background-repeat:repeat-x; font-size: 13px; color:	#ffffff; padding: 10px 10px 10px 10px; margin-top: 10px; height:20px; text-align:center; }
